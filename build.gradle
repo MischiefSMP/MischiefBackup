@@ -28,6 +28,7 @@ dependencies {
     //Lombok
     compileOnly 'org.projectlombok:lombok:1.18.24'
     annotationProcessor 'org.projectlombok:lombok:1.18.24'
+    implementation 'io.wollinger:Zipper:v0.0.1'
 }
 
 jar {
