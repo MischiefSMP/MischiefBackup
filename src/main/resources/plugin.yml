@@ -1,0 +1,6 @@
+name: MischiefBackup
+version: 0.0.1
+author: sven@wollinger.email
+main: com.mischiefsmp.backup.MischiefBackup
+api-version: 1.18
+softdepend: ["MischiefCore"]
