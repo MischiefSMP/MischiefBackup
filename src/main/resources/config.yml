@@ -1,0 +1,22 @@
+# Relative or static path
+output_dir: "backups"
+# Backup Formatting
+file_format: "%day%_%month%_%year%__%hour%_%minute%_%second%.zip"
+# Worlds are dynamically added if this is true
+include_worlds: true
+# Folder/Files you want to have backed up
+include:
+  - "logs"
+  - "plugins"
+  - ".console_history"
+  - "banned-ips.json"
+  - "banned-players.json"
+  - "bukkit.yml"
+  - "commands.yml"
+  - "help.yml"
+  - "ops.json"
+  - "paper.yml"
+  - "permissions.yml"
+  - "server.properties"
+  - "spigot.yml"
+  - "whitelist.json"

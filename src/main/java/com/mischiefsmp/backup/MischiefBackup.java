@@ -3,6 +3,7 @@ package com.mischiefsmp.backup;
 import com.mischiefsmp.core.api.MischiefPlugin;
 
 public class MischiefBackup extends MischiefPlugin {
+    private PluginConfig pluginConfig;
 
     @Override
     public void init1_onLoad() {
@@ -11,7 +12,7 @@ public class MischiefBackup extends MischiefPlugin {
 
     @Override
     public void init2_onEnable() {
-
+        pluginConfig = new PluginConfig(this);
     }
 
     @Override
